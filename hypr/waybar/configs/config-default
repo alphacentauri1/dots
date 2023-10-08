@@ -17,6 +17,7 @@
 	"cpu", 
 	"temperature", 
 	"memory",
+
 	//"disk", 
 	"custom/weather",
 	],
@@ -26,11 +27,14 @@
 	"custom/cycle_wall", 
 	"clock",	
 	"custom/light_dark",
-	"custom/lock", 	
+	"custom/lock",
+  "cava",
 	], 
 
 "modules-right": [
 	//"hyprland/window", 
+  //"network",
+  "cava",
 	"tray", 
 	"battery", 
 	"backlight",

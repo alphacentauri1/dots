@@ -74,17 +74,17 @@
  
 },
   
-"custom/weather": {
-  "format": "{}",
-  "format-alt": "{alt}: {}",
-  "format-alt-click": "click",
-  "interval": 3600,
-  "return-type": "json",
-  "exec": "~/.config/hypr/scripts/weather.sh",
+//"custom/weather": {
+//  "format": "{}",
+//  "format-alt": "{alt}: {}",
+// "format-alt-click": "click",
+//  "interval": 3600,
+//  "return-type": "json",
+//  "exec": "~/.config/hypr/scripts/weather.sh",
   //"exec": "~/.config/hypr/scripts/weather.py",
-  "exec-if": "ping wttr.in -c1",
-  "tooltip" : true,
-},
+//  "exec-if": "ping wttr.in -c1",
+//  "tooltip" : true,
+//},
   
 "wlr/workspaces": {
   "format": "{name}",
@@ -146,8 +146,8 @@
 },
   
 "clock": {
-  //"format": "{:%I:%M %p}",
-  "format": " {:%H:%M}",
+  "format": "{:%I:%M %p}",
+ // "format": " {:%H:%M}",
   "format-alt": " {:%H:%M   %Y, %d %B, %A}",
   "tooltip-format": "<tt><small>{calendar}</small></tt>",
   "calendar": {
@@ -260,7 +260,7 @@
 },
 
 "cava": {
-  //"cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
+  "cava_config": "/home/chronos/.config/cava/",
   "framerate": 60,
   "autosens": 1,
   "sensitivity": 100,
